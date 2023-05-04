@@ -22,15 +22,7 @@ published: true
         <p> </p>
         <p> </p>
         <p> </p>
-        <h4>联络地址（Find us at）:</h4>
         
-        <p class="block-author">{{ site.company_name }}</p>
-        <p>{{ site.address_line }}</p>
-        <p>联系电话（Phone）: {{ site.telephone_number }}</p>
-        
-
-        <em class="block-author">联系邮箱（Email）: {{ site.company_email }}</em> <br>
-        <br>
         <!-- p class="lead">Social Link</p><hr>
         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
           <a href="#"><img src="assets/img/social-icons/btn_skype.png" alt="Skype"></a>
@@ -49,7 +41,17 @@ published: true
       <div class="col-lg-8">
         <div class="feedback-form">
 
-          <div id="contact-response"><img src="assets/img/qrcode.png" alt="微信客服" width="50%" align="center"></div>
+          <div id="contact-response">
+            <img src="assets/img/qrcode.png" alt="微信客服" width="50%" align="center">
+            <h4>联络地址（Find us at）:</h4>
+        
+            <p class="block-author">{{ site.company_name }}</p>
+            <p>{{ site.address_line }}</p>
+            <p>联系电话（Phone）: {{ site.telephone_number }}</p>
+            <em class="block-author">联系邮箱（Email）: {{ site.company_email }}</em> <br>
+        <br>
+          
+          </div>
           <!--
           <form action="http://templates.designorbital.com/baleen/contact.php" method="post" id="contact-form">
             <fieldset>
